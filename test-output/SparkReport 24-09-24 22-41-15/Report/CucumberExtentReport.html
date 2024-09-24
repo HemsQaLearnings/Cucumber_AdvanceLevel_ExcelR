@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Aug 5, 2024 06:54:45 PM</span></a>
+<a href="#"><span class="badge badge-primary">Sep 24, 2024 10:41:15 PM</span></a>
 </li>
 </ul>
 </div>
@@ -95,9 +95,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Data Driven with Excel</p>
+            <p class="name">login</p>
             <p class="text-sm">
-              <span>6:54:46 PM</span> / <span>00:01:54:820</span>
+              <span>10:41:15 PM</span> / <span>00:01:11:234</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -105,10 +105,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Data Driven with Excel</h5>
-<span class='badge badge-success'>08.05.2024 6:54:46 PM</span>
-<span class='badge badge-danger'>08.05.2024 6:56:40 PM</span>
-<span class='badge badge-default'>00:01:54:820</span>
+<h5 class="test-status text-fail">login</h5>
+<span class='badge badge-success'>09.24.2024 10:41:15 PM</span>
+<span class='badge badge-danger'>09.24.2024 10:42:27 PM</span>
+<span class='badge badge-default'>00:01:11:234</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,7 +120,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login Data Driven Excel</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Multipledata login</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -130,26 +130,7 @@
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven Excel</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given the user is on OrangeHrm Login Page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the user should be redirected to the Home Page by passing email and password with excel row "1"</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Login Data Driven Excel</div>
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Multipledata login</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
@@ -161,47 +142,36 @@
       <div>
       </div>
                   </div>
-                  <div class="step fail-bg">
-                    <span>Then the user should be redirected to the Home Page by passing email and password with excel row "2"</span>
+                  <div class="step pass-bg">
+                    <span>When the user enters ExcelR and 145</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
-  (Session info: chrome=127.0.6533.89)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user should be redirected to homepage</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'oxd-topbar-header-breadcrumb-module')] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44fe005e38733450d13037838a91ce17, findElement {value=//input[@name='username'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51003/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44fe005e38733450d13037838a91ce17
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy38.sendKeys(Unknown Source)
-	at com.PomPages.Pom_loginPage.loginToApp(Pom_loginPage.java:82)
-	at stepDefinitions.FirstLoginStepDefinition.the_user_should_be_redirected_to_the_home_page_by_passing_email_and_password_with_excel_row(FirstLoginStepDefinition.java:103)
-	at ✽.the user should be redirected to the Home Page by passing email and password with excel row "2"(file:///C:/Users/Dell/git/repository2/Cucum_Demo3_PomPage/./Features/LoginDDTExcel.feature:6)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64471/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40409b3f9620dd5b094157097feba053
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at stepDefinitions.FirstLoginStepDefinition.the_user_should_be_redirected_to_homepage(FirstLoginStepDefinition.java:60)
+	at ✽.the user should be redirected to homepage(file:///E:/ExcelR/cucumberExcelr_workspace/./Features/FirstLogin.feature:8)
 </textarea>
       
       </div>
                   </div>
                   <div class="step pass-bg">
                     <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
-      <div>Login Data Driven Excel
+      <div>Multipledata login
           <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
     
@@ -215,89 +185,7 @@ Session ID: 44fe005e38733450d13037838a91ce17
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="17"><span class="badge log fail-bg mr-2">Fail</span>Login Data Driven Excel</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step pass-bg">
-                    <span>Given the user is on OrangeHrm Login Page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>Then the user should be redirected to the Home Page by passing email and password with excel row "3"</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.FirstLoginStepDefinition.the_user_should_be_redirected_to_the_home_page_by_passing_email_and_password_with_excel_row(FirstLoginStepDefinition.java:147)
-	at ✽.the user should be redirected to the Home Page by passing email and password with excel row "3"(file:///C:/Users/Dell/git/repository2/Cucum_Demo3_PomPage/./Features/LoginDDTExcel.feature:6)
-</textarea>
-      
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
-      <div>Login Data Driven Excel
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="24"><span class="badge log fail-bg mr-2">Fail</span>Login Data Driven Excel</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
-                  <div class="step pass-bg">
-                    <span>Given the user is on OrangeHrm Login Page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>Then the user should be redirected to the Home Page by passing email and password with excel row "4"</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.FirstLoginStepDefinition.the_user_should_be_redirected_to_the_home_page_by_passing_email_and_password_with_excel_row(FirstLoginStepDefinition.java:147)
-	at ✽.the user should be redirected to the Home Page by passing email and password with excel row "4"(file:///C:/Users/Dell/git/repository2/Cucum_Demo3_PomPage/./Features/LoginDDTExcel.feature:6)
-</textarea>
-      
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
-      <div>Login Data Driven Excel
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>Login Data Driven Excel</div>
+                  <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Multipledata login</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -307,7 +195,72 @@ Session ID: 44fe005e38733450d13037838a91ce17
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>Then the user should be redirected to the Home Page by passing email and password with excel row "5"</span>
+                    <span>When the user enters Admin and admin123</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should be redirected to homepage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log fail-bg mr-2">Fail</span>Multipledata login</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the user is on OrangeHrm Login Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters Demo and demo23</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then the user should be redirected to homepage</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'oxd-topbar-header-breadcrumb-module')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64509/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60a68a6987c3a86284e6c49c730f3546
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at stepDefinitions.FirstLoginStepDefinition.the_user_should_be_redirected_to_homepage(FirstLoginStepDefinition.java:60)
+	at ✽.the user should be redirected to homepage(file:///E:/ExcelR/cucumberExcelr_workspace/./Features/FirstLogin.feature:8)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Multipledata login
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
       <div>
       </div>
                   </div>
@@ -331,7 +284,7 @@ Session ID: 44fe005e38733450d13037838a91ce17
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -340,12 +293,12 @@ Session ID: 44fe005e38733450d13037838a91ce17
 <span class="meta">
 <span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.TimeoutException</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.TimeoutException</h4>
 <span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -359,57 +312,21 @@ Session ID: 44fe005e38733450d13037838a91ce17
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:55:33 PM</td>
+<td>22:41:26 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='21'>Then the user should be redirected to the Home Page by passing email and password with excel row "3"</a>
+<a href="#" class="linked" test-id='1' id='11'>Then the user should be redirected to homepage</a>
 <div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel.Then the user should be redirected to the Home Page by passing email and password with excel row "3"</span>
+<span class="badge badge-default">login.Multipledata login.Then the user should be redirected to homepage</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:56:03 PM</td>
+<td>22:42:06 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='28'>Then the user should be redirected to the Home Page by passing email and password with excel row "4"</a>
+<a href="#" class="linked" test-id='1' id='33'>Then the user should be redirected to homepage</a>
 <div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel.Then the user should be redirected to the Home Page by passing email and password with excel row "4"</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>18:55:05 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='14'>Then the user should be redirected to the Home Page by passing email and password with excel row "2"</a>
-<div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel.Then the user should be redirected to the Home Page by passing email and password with excel row "2"</span>
+<span class="badge badge-default">login.Multipledata login.Then the user should be redirected to homepage</span>
 </div>
 </td>
 </tr>
@@ -436,17 +353,17 @@ Session ID: 44fe005e38733450d13037838a91ce17
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
-<span class='badge log badge-danger'>3</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
 <p class="name">@FunctionalTesting</p>
-<p class="duration text-sm">5 tests</p>
+<p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@FunctionalTesting</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-<span status="fail" class='badge log badge-danger'>3 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -457,53 +374,33 @@ Session ID: 44fe005e38733450d13037838a91ce17
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>18:54:46 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='3'>Login Data Driven Excel</a>
-<div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel</span>
-</div>
-</td>
-</tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>18:55:01 PM</td>
+<td>22:41:16 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='10'>Login Data Driven Excel</a>
+<a href="#" class="linked" test-id='1' id='3'>Multipledata login</a>
 <div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>18:55:26 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='17'>Login Data Driven Excel</a>
-<div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>18:55:56 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='24'>Login Data Driven Excel</a>
-<div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel</span>
+<span class="badge badge-default">login.Multipledata login</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>18:56:25 PM</td>
+<td>22:41:46 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='31'>Login Data Driven Excel</a>
+<a href="#" class="linked" test-id='1' id='14'>Multipledata login</a>
 <div class="">
-<span class="badge badge-default">Login Data Driven with Excel.Login Data Driven Excel</span>
+<span class="badge badge-default">login.Multipledata login</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:41:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Multipledata login</a>
+<div class="">
+<span class="badge badge-default">login.Multipledata login</span>
 </div>
 </td>
 </tr>
@@ -524,13 +421,13 @@ Session ID: 44fe005e38733450d13037838a91ce17
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Aug 5, 2024 06:54:45 PM</h3>
+<h3>Sep 24, 2024 10:41:15 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Aug 5, 2024 06:56:40 PM</h3>
+<h3>Sep 24, 2024 10:42:27 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -581,9 +478,9 @@ Session ID: 44fe005e38733450d13037838a91ce17
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='40%'><b>2</b> scenarios passed</small></div>
+<div><small data-tooltip='33%'><b>1</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='60%'><b>3</b> scenarios failed,
+<small data-tooltip='66%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -601,9 +498,9 @@ Session ID: 44fe005e38733450d13037838a91ce17
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='76%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='85%'><b>12</b> steps passed</small></div>
 <div>
-<small data-tooltip='23%'><b>3</b> steps failed,
+<small data-tooltip='14%'><b>2</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -620,7 +517,7 @@ Session ID: 44fe005e38733450d13037838a91ce17
 </div></div>
 <script>
 var timeline = {
-"Login Data Driven with Excel":114.82
+"login":71.234
 };
 </script>
 <div class="row">
@@ -631,11 +528,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@FunctionalTesting</td>
+<td>1</td>
 <td>2</td>
-<td>3</td>
 <td>0</td>
 <td>0</td>
-<td>40%</td>
+<td>33.333%</td>
 </tr>
 </tbody>
 </table></div>
@@ -651,14 +548,14 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 2,
-failChild: 3,
+passChild: 1,
+failChild: 2,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 10,
-failGrandChild: 3,
+passGrandChild: 12,
+failGrandChild: 2,
 warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,

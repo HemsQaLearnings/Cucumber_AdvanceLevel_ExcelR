@@ -5,35 +5,8 @@
 	<groupId>Cucum_Demo3_PomPage</groupId>
 	<artifactId>Cucum_Demo3_PomPage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
-	<packaging>jar</packaging>
 
-	<name>OrangeHRM_cucumber_framework</name>
-	<url>http://maven.apache.org</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
- <build>
-        <pluginManagement>
-        <plugins>
-            <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
-			</plugin>
-
-          <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.2</version>
-             </plugin>
-
-	      </plugins>
-        </pluginManagement>
-    </build>
-    
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -62,7 +35,6 @@
 			<version>5.6.1</version> <!-- Check for the latest version -->
 		</dependency>
 
-
 		<!--
 		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 		<dependency>
@@ -70,6 +42,7 @@
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.10.1</version>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
@@ -88,20 +61,6 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.15.1</version>
-		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.23.1</version>
-		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-			<version>2.23.1</version>
 		</dependency>
 
 

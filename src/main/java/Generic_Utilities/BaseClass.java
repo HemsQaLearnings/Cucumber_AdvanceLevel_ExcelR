@@ -36,26 +36,6 @@ public class BaseClass {
 		return p;
 	}
 
-	public static Logger getLogger() {
-		logger = LogManager.getLogger(); // Log4j
-		return logger;
-	}
-
-	public static String randomeString() {
-		String generatedString = RandomStringUtils.randomAlphabetic(5);
-		return generatedString;
-	}
-
-	public static String randomeNumber() {
-		String generatedString = RandomStringUtils.randomNumeric(10);
-		return generatedString;
-	}
-
-	public static String randomAlphaNumeric() {
-		String str = RandomStringUtils.randomAlphabetic(5);
-		String num = RandomStringUtils.randomNumeric(10);
-		return str + num;
-	}
 
 	public String getSystemDateInFormat() {
 		SimpleDateFormat dateformat = new SimpleDateFormat("dd-MM-yyyy HH-mm-SS");
@@ -65,10 +45,10 @@ public class BaseClass {
 	}
 
 	public void logincredentials() throws IOException {
-		p = getProperties();
+		p = getProperties(); //method calling inside the same class
 		String email = p.getProperty("email");
 		String password = p.getProperty("password");
-		String searchemp = p.getProperty("searchEmployeeName");
+		
 
 	}
 
